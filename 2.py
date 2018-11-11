@@ -25,7 +25,8 @@ def main():
         for n in list_of_boxes:
             the_one = compair_to_strings(i, n)
             if the_one:
-                print the_one
+                print('Part2. The one code: %s' % the_one)
+                exit()
     
 
     
